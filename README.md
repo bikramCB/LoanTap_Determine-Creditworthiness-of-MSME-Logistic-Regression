@@ -63,18 +63,19 @@ Scikit-Learn,Numpy, Pandas, Matplotlib,Seaborn
 ## Feature Engineering And Encoding:
 1.Pub_rec,mortgage_acc,pub_rec_bankruptcy people who are having more than 1 count are treated as 1 value and rest are put 0 value. Because If there is some outlier with large vale of pub_rec may be person is very 
   much informative high risk customer for LoanTap that's why we should consider him.
+
 2.fill missing mort_acc value with corresponding to total account median value cause both volumn are corelated to each other.
 
 ## Findings
-The no of people those who have fully paid are 318357 and that of Charged Off are 77673.
-B, C grade people are more prone to repay the loan
-G grade people are 50:50 chances to repay . so put more interest on them - business insights
-Managers and teacher are more affordable job loan title.
-10 yrs+ emp_length are likely to pay the loan.
-No pub_rec is likely to repay loan back
-No pub_rec_bankruptcy is likely to repay back loan
-mort_acc 1 is likely to repay back loan
-people take loan as fractional amount are more likely to repay it back.
+1. The no of people those who have fully paid are 318357 and that of Charged Off are 77673.
+2. B, C grade people are more prone to repay the loan
+3. G grade people are 50:50 chances to repay . so put more interest on them - business insights
+4. Managers and teacher are more affordable job loan title.
+5. 10 yrs+ emp_length are likely to pay the loan.
+6. No pub_rec is likely to repay loan back
+7. No pub_rec_bankruptcy is likely to repay back loan
+8. mort_acc 1 is likely to repay back loan
+9. people take loan as fractional amount are more likely to repay it back.
 
 ## Solutions :
 Almost 3.5 Lakh historic financial data were collected from LoanTap websites.
